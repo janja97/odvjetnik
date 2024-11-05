@@ -4738,6 +4738,7 @@ input, select, textarea {
   }
   /* Medijski upit za male uređaje */
   @media (max-width: 768px) {
+ 
     .usluge {
       flex-direction: column; /* Poredaj elemente jedan ispod drugog */
     }
@@ -4749,4 +4750,5 @@ input, select, textarea {
       width: 80%;
     }
   }
+
   
