@@ -4732,6 +4732,8 @@ input, select, textarea {
   .usluga p {
     text-align: center;
     padding: 5px;
+    max-width: 70%;
+    margin-inline: auto;
   }
   .usluga img {
     width: 45%;
