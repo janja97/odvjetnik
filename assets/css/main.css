@@ -4492,9 +4492,9 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		display: none;
-		position: fixed;
-		top: 0.75rem;
-		right: 0.75rem;
+		position: absolute;
+		top: 20px;
+		right: 20px;
 		border: 0;
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -4694,6 +4694,7 @@ input, select, textarea {
     flex-wrap: wrap; /* Omogućuje elementima da se preslože u novi red ako nema dovoljno prostora */
     justify-content: space-between; /* Raspoređuje elemente ravnomjerno */
     margin-top: 50px;
+    align-content: center;
   }
   
   .vrijednost {
@@ -4720,13 +4721,12 @@ input, select, textarea {
   
   .usluge {
     /*  */
-    margin-top: 50px;
+    margin-top: -30px;
   }
   
   .usluga {
 
     box-sizing: border-box;
-    margin: 10px;
     margin-top: 80px;
   }
   .usluga p {
@@ -4744,6 +4744,9 @@ input, select, textarea {
   
     .usluga {
       min-width: 100%; /* Svaki element zauzima cijelu širinu */
+    }
+    .usluga img {
+      width: 80%;
     }
   }
   

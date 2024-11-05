@@ -220,17 +220,17 @@
 
 					$main.unscrollex();
 
-					$main.scrollex({
-						mode: 'bottom',
-						top: '25vh',
-						bottom: '-50vh',
-						enter: function() {
-							$intro.addClass('hidden');
-						},
-						leave: function() {
-							$intro.removeClass('hidden');
-						}
-					});
+				// Change toggle styling once we've scrolled past the header.
+          $header.scrollex({
+            bottom: '5vh',
+            enter: function() {
+              $navPanelToggle.removeClass('alt');
+            },
+            leave: function() {
+              $navPanelToggle.addClass('alt');
+            }
+          });
+
 
 				});
 
